@@ -1,5 +1,5 @@
 class LandingController < ApplicationController
   def index
+	  @articles = Article.all
   end
-    @articles = Article.all
 end
