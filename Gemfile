@@ -17,6 +17,7 @@ group :development, :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'pry-rails'
+	gem 'pry-byebug'
 end
 
 group :development do
