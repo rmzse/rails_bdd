@@ -14,4 +14,4 @@ Feature: List articles on landing page
     Then I should see "A breaking news item"
     And I should see "Some really breaking action"
     And I should see "Learn Rails 5"
-    And I should see "Build awesome rails applications"
+    And I should see "Build awesome rails apps"
