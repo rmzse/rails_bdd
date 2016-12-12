@@ -14,8 +14,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
-  gem 'cucumber-rails'
-  gem 'database_cleaner', require: false
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
   gem 'pry-rails'
 end
 
