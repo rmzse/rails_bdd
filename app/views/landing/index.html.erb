@@ -4,8 +4,9 @@
   <li>
     <%= article.title %><br />
     <%= article.content %><br />
-    <%= article.author %>
-    <%= article.created_at %>
+    Written by <%= article.author %>
+    binding.pry
+    at <%= article.created_at %>
   </li>
   <% end %>
 </ul>
